@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+<body>
+  <!-- Menu -->
+  <div id="menu-container"></div>
+
+  <div class="container  ">
+      <form id="form1">
+
+      <div class="row">
+          <div class="col-md-6 mx-auto mt-5 bg-light   rounded">
+              <div class="h3 text-center text-primary mt-3 ">Register</div>
+              <div class="mb-3 mt-4 ">
+                  <label class="form-label">Firstname - Lastname</label>
+                  <input type="text" class="form-control" id="firstname-lastname" placeholder="firstname - lastname" required>
+              </div>
+              <div class="mb-3 mt-4 ">
+                  <label class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+              </div>
+              <div class="mb-3 mt-4 ">
+                  <label class="form-label">Address</label>
+                  <textarea class="form-control" id="textDetail" rows="3" placeholder="address" required></textarea>
+              </div>
+              <div class="mb-3 mt-4 ">
+                  <label class="form-label">Username</label>
+                  <input type="text" class="form-control" id="username" placeholder="username" required>
+              </div>
+              <div class="mb-3 mt-4 ">
+                  <label class="form-label">Password</label>
+                  <input type="password" class="form-control" id="password" placeholder="password" required>
+              </div>
+              <div class="text-center mb-4">
+                  <input type="submit" id="submit" class="btn btn-primary" value="Submit">
+                  <input type="reset" id="reset" class="btn btn-secondary" value="Cencel">
+              </div>
+          </div>
+      </div>
+  </form>
+  </div>
+</body>
+</html>
+
+<script src="js/bootstrap.bundle.min.js" ></script>
+<script src="js/menu.js" ></script>
